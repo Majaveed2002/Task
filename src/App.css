@@ -1,0 +1,187 @@
+.background-container {
+  background-color: #edeaf5;
+  min-height: 100vh;
+  background-size: cover;
+}
+
+.heading-card {
+  display: flex;
+  padding: 1em 1em;
+  align-items: center;
+}
+
+.online-logo {
+  background-color: black;
+  border: none;
+  border-radius: 18px;
+  color: #fff;
+  padding: 0.25em 1em;
+  margin-left: 1em;
+  font-weight: 700;
+}
+
+.middle-section-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 0.2em auto;
+  height: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .middle-section-container {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1em;
+    margin: 0 auto;
+    align-items: center;
+  }
+}
+
+.chat-box-card {
+  background-color: #ffffff;
+  width: 63%;
+  border-radius: 10px;
+  padding: 0.5em 1em;
+  height: 100%;
+}
+
+.add-pdf-card {
+  background-color: white;
+  width: 33%;
+  border-radius: 12px;
+  padding: 1em 1em;
+}
+
+@media screen and (max-width: 767px) {
+  .add-pdf-card {
+    margin-bottom: 1em;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .chat-box-card {
+    width: 80%;
+  }
+  .add-pdf-card {
+    width: 80%;
+  }
+}
+
+.conversation-card {
+  display: flex;
+  margin: 1.2em 0.5em;
+}
+
+.end-chat-btn {
+  margin-left: 1em;
+  padding: 0.2em 1em;
+  border-radius: 8px;
+  border: 1px solid lightgray;
+  color: black;
+  background-color: transparent;
+  font-weight: 600;
+}
+
+.end-chat-btn:hover {
+  border: 2px solid lightgray;
+}
+
+.chat-box {
+  border: 1px solid lightgray;
+  padding: 1em 0.5em;
+  border-radius: 8px;
+  height: 375px;
+  overflow-y: auto;
+}
+
+.message-card {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-left: 1em;
+  margin-bottom: 1.25em;
+}
+
+.profile-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.bot-logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(228, 228, 228);
+}
+
+@media screen and (max-width: 767px) {
+  .profile-icon {
+    height: 25px;
+    width: 25px;
+  }
+  .bot-logo {
+    height: 25px;
+    width: 25px;
+  }
+}
+
+.input-card {
+  margin-top: 0.3em;
+  border: 1px solid lightgray;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+}
+
+textarea {
+  outline: none;
+  padding: 0.5em 0.5em;
+  border: none;
+  margin: 0.5em;
+  font-size: 1.1rem;
+}
+
+.send-message-btn {
+  margin: 0.5em 0;
+  width: 100%;
+  padding: 0.75em 0;
+  background-color: black;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.form-card {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 0.25em;
+}
+
+input {
+  border: 1px solid lightgray;
+  padding: 0.5em;
+  border-radius: 6px;
+}
+
+.selected-pdf-card {
+  margin-top: 1em;
+  padding: 1em 1.2em;
+  border: 1px solid lightgray;
+  border-radius: 8px;
+}
+
+.selected-names-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.selected-names-card {
+  margin-top: 1em;
+  padding: 1em 1.2em;
+}
